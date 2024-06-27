@@ -157,7 +157,7 @@
                 scale = heart.scale;
             ctx.save();
             ctx.strokeStyle = color;
-            ctx.fillStyle = color;
+            ctx.fillStyle = 'red';
             ctx.translate(point.x, point.y);
             ctx.scale(scale, scale);
             ctx.moveTo(0, 0);
